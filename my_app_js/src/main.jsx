@@ -14,7 +14,7 @@ createRoot(document.getElementById("root")).render(
      <App name="James" message="Merry Christmas ! "/>
     <MainButton label="Unlock Gift" onclick="#" color="blue"/>
     {/* destructuring props */}
-    <Greeting1 name="Alice" message="Welcome"/>
+    <Greeting1 name="Alice" message="Welcome" emoji="👍"/>
     <Greeting2 name="Bob" message="Good Morning"/>
 
   </StrictMode>
