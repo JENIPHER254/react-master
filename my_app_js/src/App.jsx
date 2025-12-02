@@ -1,7 +1,7 @@
 function App(props) {
   return (
     <>
-      <h1>{props.message} {props.name}</h1>
+      <p>{props.message} {props.name}</p>
     </>
   );
 }
