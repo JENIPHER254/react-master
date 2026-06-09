@@ -10,6 +10,7 @@ import RenderingArrays from './components/RenderingArrays'
 import RenderingAnArrayOfObjects   from './components/RenderingAnArrayOfObjects'
 import RenderingComponents from './components/RenderingComponents'
 import ConditionallyRenderingComponents from './components/ConditionallyRenderingComponents'
+import ConditionallyRenderingComponentsUsingElementVariables from './components/ConditionalRenderingUsingElementVariables'
 
 const names = ['Alice', 'Bob', 'Charlie'];
 const name = 'Jenny';
@@ -33,6 +34,7 @@ function App() {
       <RenderingAnArrayOfObjects />
       <RenderingComponents />
       <ConditionallyRenderingComponents />
+      <ConditionallyRenderingComponentsUsingElementVariables displayMessage={true} isLoggedIn={false} />
     </>
   )
 }
