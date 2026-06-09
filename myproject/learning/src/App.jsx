@@ -8,6 +8,7 @@ import PassingArraysUsingProps from './components/PassingArraysUsingProps'
 import PassingObjectsUsingProps from './components/PassingObjectsUsingProps'
 import RenderingArrays from './components/RenderingArrays'
 import RenderingAnArrayOfObjects   from './components/RenderingAnArrayOfObjects'
+import RenderingComponents from './components/RenderingComponents'
 
 const names = ['Alice', 'Bob', 'Charlie'];
 const name = 'Jenny';
@@ -29,6 +30,7 @@ function App() {
       <PassingObjectsUsingProps person={person} />
       <RenderingArrays />
       <RenderingAnArrayOfObjects />
+      <RenderingComponents />
     </>
   )
 }
