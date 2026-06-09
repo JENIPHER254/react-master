@@ -13,6 +13,7 @@ import ConditionallyRenderingComponents from './components/ConditionallyRenderin
 import ConditionallyRenderingComponentsUsingElementVariables from './components/ConditionalRenderingUsingElementVariables'
 import TernaryOperators from './components/TernaryOperators'
 import ConditionallyRenderingListItems from './components/ConditionallyRenderingListsItems'
+import EventHandling from './components/EventHandling'
 
 const names = ['Alice', 'Bob', 'Charlie'];
 const name = 'Jenny';
@@ -40,6 +41,7 @@ function App() {
       <ConditionallyRenderingComponentsUsingElementVariables displayMessage={true} isLoggedIn={false} />
       <TernaryOperators displayMessage={true} isLoggedIn={false} />
       <ConditionallyRenderingListItems items={grades} />
+      <EventHandling value={10} />
     </>
   )
 }
