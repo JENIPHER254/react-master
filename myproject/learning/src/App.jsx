@@ -2,6 +2,7 @@ import Hello from './components/Hello'
 import AuthButton from './components/AuthButton'
 import DestructuringProps from './components/DestructuringProps'
 import OptimumDestructuringProps from './components/OptimumDestructuringProps'
+import ImmutabilityOfProps from './components/ImmutabilityOfProps'
 
 const name = 'Jenny'
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <DestructuringProps date="2026" location="New York" />
    
     <OptimumDestructuringProps date="2026" location="New York" />
+    <ImmutabilityOfProps name={name} />
 
     </>
   )
