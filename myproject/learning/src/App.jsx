@@ -1,8 +1,11 @@
-
+import Hello from './components/Hello'
 function App() {
 
   return (
-    <p>Hello world</p>
+    <>
+    <Hello />
+    <h1>Hello World</h1>
+    </>
   )
 }
 
