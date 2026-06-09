@@ -11,6 +11,7 @@ import RenderingAnArrayOfObjects   from './components/RenderingAnArrayOfObjects'
 import RenderingComponents from './components/RenderingComponents'
 import ConditionallyRenderingComponents from './components/ConditionallyRenderingComponents'
 import ConditionallyRenderingComponentsUsingElementVariables from './components/ConditionalRenderingUsingElementVariables'
+import TernaryOperators from './components/TernaryOperators'
 
 const names = ['Alice', 'Bob', 'Charlie'];
 const name = 'Jenny';
@@ -35,6 +36,7 @@ function App() {
       <RenderingComponents />
       <ConditionallyRenderingComponents />
       <ConditionallyRenderingComponentsUsingElementVariables displayMessage={true} isLoggedIn={false} />
+      <TernaryOperators displayMessage={true} isLoggedIn={false} />
     </>
   )
 }
