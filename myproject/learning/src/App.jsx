@@ -12,6 +12,7 @@ import RenderingComponents from './components/RenderingComponents'
 import ConditionallyRenderingComponents from './components/ConditionallyRenderingComponents'
 import ConditionallyRenderingComponentsUsingElementVariables from './components/ConditionalRenderingUsingElementVariables'
 import TernaryOperators from './components/TernaryOperators'
+import ConditionallyRenderingListItems from './components/ConditionallyRenderingListsItems'
 
 const names = ['Alice', 'Bob', 'Charlie'];
 const name = 'Jenny';
@@ -19,6 +20,7 @@ function App() {
   const person = {
     name: 'John', age: 30, city: 'New York'
   };
+  const grades = [85, 90, 78, 45,30,20,50,60,70,80,90,98];
   return (
     <>
       <Hello />
@@ -37,6 +39,7 @@ function App() {
       <ConditionallyRenderingComponents />
       <ConditionallyRenderingComponentsUsingElementVariables displayMessage={true} isLoggedIn={false} />
       <TernaryOperators displayMessage={true} isLoggedIn={false} />
+      <ConditionallyRenderingListItems items={grades} />
     </>
   )
 }

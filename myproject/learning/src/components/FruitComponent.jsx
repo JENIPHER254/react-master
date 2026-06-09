@@ -1,7 +1,7 @@
-export default function FruitComponent({ key, name, price}) {
+export default function FruitComponent({ id, name, price}) {
   return (
     <div>
-        <li key={key}> {name} - ${price.toFixed(2)}</li>
+        <li key={id}> {name} - ${price.toFixed(2)}</li>
     
     </div>
   )
