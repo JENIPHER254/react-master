@@ -1,10 +1,12 @@
 import Hello from './components/Hello'
-function App() {
 
+const name = 'Jenny'
+function App() {
+ 
   return (
     <>
     <Hello />
-    <h1>Hello World</h1>
+    <h1>Its your beautiful friend  {name}. Im {(10+20)} years old</h1>
     </>
   )
 }
