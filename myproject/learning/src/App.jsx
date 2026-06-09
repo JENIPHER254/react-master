@@ -6,6 +6,7 @@ import ImmutabilityOfProps from './components/ImmutabilityOfProps'
 import PassingArraysUsingProps from './components/PassingArraysUsingProps'
 
 import PassingObjectsUsingProps from './components/PassingObjectsUsingProps'
+import RenderingArrays from './components/RenderingArrays'
 
 const names = ['Alice', 'Bob', 'Charlie'];
 const name = 'Jenny';
@@ -25,7 +26,7 @@ function App() {
       <ImmutabilityOfProps name={name} />
       <PassingArraysUsingProps names={names} />
       <PassingObjectsUsingProps person={person} />
-
+      <RenderingArrays />
     </>
   )
 }
