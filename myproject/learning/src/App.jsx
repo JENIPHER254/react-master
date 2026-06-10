@@ -16,6 +16,8 @@ import ConditionallyRenderingListItems from './components/ConditionallyRendering
 import EventHandling from './components/EventHandling'
 import States from './components/States'
 import MultipleStates from './components/MultipleStates'
+import HandlingUserInput from './components/HandlingUserInput'
+import HandlingMultipleInputs from './components/HandlingMultipleInpits'
 
 const names = ['Alice', 'Bob', 'Charlie'];
 const name = 'Chance';
@@ -46,6 +48,8 @@ function App() {
       <EventHandling value={10} />
       <States />
       <MultipleStates myname={name} />
+      <HandlingUserInput />
+      <HandlingMultipleInputs />
     </>
   )
 }
