@@ -14,9 +14,11 @@ import ConditionallyRenderingComponentsUsingElementVariables from './components/
 import TernaryOperators from './components/TernaryOperators'
 import ConditionallyRenderingListItems from './components/ConditionallyRenderingListsItems'
 import EventHandling from './components/EventHandling'
+import States from './components/States'
+import MultipleStates from './components/MultipleStates'
 
 const names = ['Alice', 'Bob', 'Charlie'];
-const name = 'Jenny';
+const name = 'Chance';
 function App() {
   const person = {
     name: 'John', age: 30, city: 'New York'
@@ -42,6 +44,8 @@ function App() {
       <TernaryOperators displayMessage={true} isLoggedIn={false} />
       <ConditionallyRenderingListItems items={grades} />
       <EventHandling value={10} />
+      <States />
+      <MultipleStates myname={name} />
     </>
   )
 }
